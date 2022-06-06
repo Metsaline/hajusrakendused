@@ -11,7 +11,7 @@ set('http_user', 'virt100795');
 set('keep_releases', 2);
 
 // Hosts
-host('nimi.itmajakas.ee')
+host('ta20pajuniit.itmajakas.ee')
     ->setHostname('ta20pajuniit.itmajakas.ee')
     ->set('http_user', 'virt100795')
     ->set('deploy_path', '~/domeenid/www.ta20pajuniit.itmajakas.ee/hajusrakendused')
