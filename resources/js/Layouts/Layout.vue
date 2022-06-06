@@ -25,8 +25,8 @@
                             <NavLink href="/Ralfapi">
                                 Ralf API
                             </NavLink>
-                            <NavLink href="/Kellegiapi">
-                                Andrus API
+                            <NavLink href="/AndraApi">
+                                Andra API
                             </NavLink>
                         </div>
                     </div>

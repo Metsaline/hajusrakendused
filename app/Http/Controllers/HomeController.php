@@ -11,8 +11,8 @@ class HomeController extends Controller
     {
         return Inertia::render('API');
     }
-    public function Andrus()
+    public function andra()
     {
-        return Inertia::render('Andrus');
+        return Inertia::render('Andra');
     }
 }

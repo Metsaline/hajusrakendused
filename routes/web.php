@@ -30,7 +30,7 @@ Route::get('/', function () {
 
 Route::get('/weather', [WeatherApiController::class, 'index']);
 Route::get('/Ralfapi', [HomeController::class, 'api'])->name('api');
-Route::get('/Kellegiapi', [HomeController::class, 'andrus'])->name('andrus');
+Route::get('/AndraApi', [HomeController::class, 'andra'])->name('andrus');
 Route::get('/map', [MapsController::class, 'index']);
 Route::post('/map', [MapsController::class, 'store'])->name('map.store');
 Route::get('/map/marker/{id}', [MapsController::class, 'show']);
