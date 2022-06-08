@@ -1,5 +1,5 @@
 <template>
-<h1 class="flex justify-center text-xl">API-D</h1>
+<h1 class="flex justify-center text-4xl text-white">API-D</h1>
     <div class="grid grid-cols-3 gap-8 justify-around ">
         <Product
             :key="product.id"

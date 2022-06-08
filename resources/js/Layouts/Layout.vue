@@ -1,7 +1,7 @@
 <template>
-<div class="min-h-screen flex flex-col">
+<div class="min-h-screen flex flex-col bg-gray-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="bg-white">
+        <nav class="bg-gray-800">
         <!-- Primary Navigation Menu -->
             <div class="px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-16">
@@ -34,7 +34,7 @@
             </div>
         </nav>
     </div>
-    <main class="font-sans antialiased flex flex-col flex-1">
+    <main class="bg-gray-800 font-sans antialiased flex flex-col flex-1">
         <slot></slot>
     </main>
 </div>

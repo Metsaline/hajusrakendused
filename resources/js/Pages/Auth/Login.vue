@@ -9,7 +9,7 @@
 
   <form @submit.prevent="submit">
     <div>
-      <Label for="email" value="Email" />
+      <Label for="email" value="Email" class="text-white" />
       <Input
         id="email"
         type="email"
@@ -22,7 +22,7 @@
     </div>
 
     <div class="mt-4">
-      <Label for="password" value="Password" />
+      <Label for="password" value="Password" class="text-white"/>
       <Input
         id="password"
         type="password"
@@ -36,7 +36,7 @@
     <div class="block mt-4">
       <label class="flex items-center">
         <Checkbox name="remember" v-model:checked="form.remember" />
-        <span class="ml-2 text-sm text-gray-600">Remember me</span>
+        <span class="ml-2 text-sm text-gray-200">Remember me</span>
       </label>
     </div>
 
@@ -44,7 +44,7 @@
       <Link
         v-if="canResetPassword"
         :href="route('password.request')"
-        class="underline text-sm text-gray-600 hover:text-gray-900"
+        class="underline text-sm text-gray-200 hover:text-gray-400"
       >
         Forgot your password?
       </Link>

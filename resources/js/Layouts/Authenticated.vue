@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="min-h-screen bg-gray-100">
-            <nav class="bg-white border-b border-gray-100">
+        <div class="min-h-screen bg-gray-800">
+            <nav class="bg-gray-800 border-b border-gray-700">
                 <!-- Primary Navigation Menu -->
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="flex justify-between h-16">
@@ -70,7 +70,7 @@
                     </div>
 
                     <!-- Responsive Settings Options -->
-                    <div class="pt-4 pb-1 border-t border-gray-200">
+                    <div class="pt-4 pb-1 border-t border-gray-800">
                         <div class="px-4">
                             <div class="font-medium text-base text-gray-800">{{ $page.props.auth.user.name }}</div>
                             <div class="font-medium text-sm text-gray-500">{{ $page.props.auth.user.email }}</div>
@@ -86,7 +86,7 @@
             </nav>
 
             <!-- Page Heading -->
-            <header class="bg-white shadow" v-if="$slots.header">
+            <header class="bg-gray-800 shadow" v-if="$slots.header">
                 <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                     <slot name="header" />
                 </div>

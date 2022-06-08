@@ -3,23 +3,23 @@
     <div class="h-full w-full" id="map" ref="map"></div>
     <div class="grid grid-cols-2">
       <form class="flex flex-col w-72 gap-4 mt-4 mx-6" @submit.prevent="submit">
-        <div class="grid grid-cols-2 bg-blue-200 py-4 px-4 rounded-lg">
-          <p class="items-center flex">Name</p>
+        <div class="grid grid-cols-2 bg-gray-600 py-4 px-4 rounded-lg">
+          <p class="items-center flex text-white">Name</p>
           <input type="text" name="name" v-model="form.name" class="rounded-lg" />
         </div>
-        <div class="grid grid-cols-2 bg-blue-200 py-4 px-4 rounded-lg">
-          <p class="items-center flex">Longitude</p>
+        <div class="grid grid-cols-2 bg-gray-600 py-4 px-4 rounded-lg">
+          <p class="items-center flex text-white">Longitude</p>
           <input type="text" name="longitude" v-model="form.lng" class="rounded-lg"/>
         </div>
-        <div class="grid grid-cols-2 bg-blue-200 py-4 px-4 rounded-lg">
-          <p class="items-center flex">Latitude</p>
+        <div class="grid grid-cols-2 bg-gray-600 py-4 px-4 rounded-lg">
+          <p class="items-center flex text-white">Latitude</p>
           <input type="text" name="latitude" v-model="form.lat" class="rounded-lg"/>
         </div>
-        <div class="grid grid-cols-2 bg-blue-200 py-4 px-4 rounded-lg">
-          <p class="items-center flex">Description</p>
+        <div class="grid grid-cols-2 bg-gray-600 py-4 px-4 rounded-lg">
+          <p class="items-center flex text-white">Description</p>
           <input type="text" name="description" v-model="form.description" class="rounded-lg"/>
         </div>
-        <input type="submit" class="bg-blue-200 rounded-lg py-4 px-4 font-bold" value="Add marker" />
+        <input type="submit" class="bg-gray-600 rounded-lg py-4 px-4 font-bold text-white" value="Add marker" />
       </form>
       <table>
         <tr v-for="item in data" :key="markers.id">
