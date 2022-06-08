@@ -28,6 +28,9 @@
                             <NavLink href="/AndraApi">
                                 Andra API
                             </NavLink>
+                            <a href="https://epood.ta20pajuniit.itmajakas.ee/" class="inline-flex items-center">
+                               <div class="bg-red-600 text-white hover:bg-red-700 px-4 py-2 rounded-md">E-pood</div>
+                            </a>
                         </div>
                     </div>
                 </div>
